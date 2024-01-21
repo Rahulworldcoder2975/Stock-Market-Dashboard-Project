@@ -1,1 +1,266 @@
+body{
+    background-color: rgb(0, 255, 255);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.main{
+    margin-left: 290px;
+    align-items: center;
+    background-color: rgb(236, 52, 20);
+    width: 50%;
+}
+.children{
+    kground-color: rgba(0, 255, 255, 0.873);
+}dashboard button{
+   padding: 10px;
+   margin:10px;
+    border-radius: 10px;
+    border-color: white;
+    height: 50px;
+    width: 80px;
+}
+.dashboard button:hover{
+    overflow: 10px;
+    backgrd-color: turquoise;
+}
+.maiiv input{
+    background-color: rgb(63, 59, 59);
+   width: 32%;
+   height: 25px;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 10px;
+}
+.main div h1{
+    color:cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: brown;
+    border-radius: 50px;
+    margin: 20px;
+}
+.watchlist{
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    
+}
+.watchlist .item1 {
+    background-color: rgb(177, 177, 91);
+    /* width: 100%; */
+    
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    word-spacing: 30px;
+}
+.watchlist .item2 {
+    background-color: rgb(177, 177, 91);
+    /* width: 100%; */
+    
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    word-spacing: 30px;
+}
+.watchlist .item3 {
+    background-color: rgb(177, 177, 91);
+    /* width: 100%; */
+    
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    word-spacing: 30px;
+}
+.watchlist .item1 button{
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+   color:rgb(20, 141, 247);
+   border-radius: 10px;
+}
+.watchlist .item2 button{
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+   color:tomato;
+   border-radius: 10px;
+}
+.watchlist .item3 button{
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+   color:purple;
+   border-radius: 10px;
+}
 
+.watchlist1 {
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+.item1 {
+    background-color: rgb(177, 177, 91);
+    /* width: 100%; */
+    
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    word-spacing: 30px;
+}
+.data {
+    background-color: rgb(177, 177, 91);
+    /* width: 100%; */
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    word-spacing: 30px;
+    /* text-align: center;
+    align-items: center; */
+}
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #38f40e;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #0df43b;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  body {
+      font-family: cursive;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: large;
+      /* background-color: #f4f4f4; */
+  }
+
+  .container {
+      text-align: center;
+  }
+
+  #stockSymbol {
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 20px;
+      border: solid white 1px;
+      color:green;
+      background-color: azure;
+  }
+
+  #timeFrame {
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: solid white 1px;
+      color:green;
+      background-color: azure;
+  }
+
+  #addToWatchlist {
+      padding: 10px;
+      border-radius: 5px;
+      border: solid white 1px;
+      color:green;
+      background-color: azure;
+  }
+
+  .stock-card {
+      border: 1px solid white;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+      color:green;
+      background-color: seashell;
+  }
+
+  .delete-button {
+      color: red;
+      cursor: pointer;
+  }
+
+  .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+      background-color: #2cd10b;
+      margin: 15% auto;
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 600px;
+      position: relative;
+      overflow-y: auto; /* Add this line to enable vertical scrolling */
+      max-height: 70vh; /* Set a maximum height for the modal content */
+  }
+
+  .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+  div h1 {
+      color: rgb(74, 70, 31);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 35px;
+      border-radius: 10px;
+      background-color: rgb(13, 235, 46);
+      margin: 40px;
+  }
+
+  /* Additional styles for the watchlist container */
+  #watchlist {
+      max-width: 600px;
+      max-height: 200px; /* Set your desired max height */
+      overflow: auto;
+      border: 1px solid rgb(0, 255, 255);
+      border-radius: 5px;
+      margin: 10px auto;
+      padding: 10px;
+  }
+
+  #scrollButtons {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  #scrollUpButton, #scrollDownButton {
+      padding: 5px;
+      margin: 5px;
+      cursor: pointer;
+      background-color: #ddd;
+  }
